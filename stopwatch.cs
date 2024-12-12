@@ -29,3 +29,16 @@ public class Stopwatch
             Console.WriteLine("Stopwatch is already running.");
         }
     }
+       public void Stop()
+    {
+        if (_isRunning)
+        {
+            _isRunning = false;
+            _timer.Dispose();
+            OnStopped?.Invoke("Stopwatch Stopped!");
+        }
+        else
+        {
+            Console.WriteLine("Stopwatch is not running.");
+        }
+    }

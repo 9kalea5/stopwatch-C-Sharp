@@ -8,7 +8,7 @@ public class Stopwatch
     public event StopwatchEventHandler OnStopped;
     public event StopwatchEventHandler OnReset;
 
-    private int _timeElapsed; // Elapsed time in seconds
+    private int _timeElapsed;
     private bool _isRunning;
     private Timer _timer;
 

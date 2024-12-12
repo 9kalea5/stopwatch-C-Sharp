@@ -22,4 +22,3 @@ Events:
 Notifications like "Stopwatch Started!", "Stopwatch Stopped!", and "Stopwatch Reset!" are displayed when the respective actions occur.
 Timer:
 
-The application uses a timer to increment the elapsed time every second.
